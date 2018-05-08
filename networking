@@ -10,3 +10,8 @@ Check which ports are listening on localhost:
   
 On Ubuntu 16, open port:
   ufw allow 5000
+
+Show routing table:
+  route -n
+  netstat -rn
+  ip route list
